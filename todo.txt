@@ -1,0 +1,14 @@
+@todo
+Create product backend
+    -- Add product to db
+    -- update product in db
+    -- delete product from db
+    -- * Import product from DealExtreme
+Product get all products
+    -- Get all products from db with filter and sorting
+
+Product controller
+    -- show the correct view
+
+Product view
+    -- create a html file with the products
