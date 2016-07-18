@@ -1,0 +1,9 @@
+0.0.1:
+  - alfa version
+0.0.2:
+  - Update with create database tables
+  - create_xleeuwx_affiliate_products.php
+  - create_xleeuwx_affiliate_products_bol.php
+  - create_xleeuwx_affiliate_products_dx.php
+  - create_xleeuwx_affiliate_products_specifications.php
+  - create_xleeuwx_affiliate_settings.php
