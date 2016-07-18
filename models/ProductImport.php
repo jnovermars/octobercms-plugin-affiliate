@@ -1,5 +1,5 @@
 <?php
-namespace xleeuwx\Affiliate\Model;
+namespace xleeuwx\Affiliate\models;
 
 
 abstract class ProductImport

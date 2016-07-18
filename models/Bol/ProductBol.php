@@ -1,5 +1,5 @@
 <?php
-namespace xleeuwx\Affiliate\Model\Bol;
+namespace xleeuwx\Affiliate\models\Bol;
 use October\Rain\Database\Model;
 
 class ProductBol extends Model

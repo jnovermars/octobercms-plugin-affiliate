@@ -1,15 +1,16 @@
 <?php
-namespace xleeuwx\Affiliate\Model;
+namespace xleeuwx\Affiliate\models\DealExtreme;
 
 use October\Rain\Database\Model;
 
-class Settings extends Model
+
+class ProductDx extends Model
 {
 
     /**
      * @var string $table The database table used by the model.
      */
-    public $table = 'xleeuwx_affiliate_settings';
+    public $table = 'xleeuwx_affiliate_products_dx';
 
     /**
      * @var array $guarded Guarded fields
@@ -34,13 +35,10 @@ class Settings extends Model
     /**
      * Find Products
      *
-     * @param string $setting
+     * @param int $productID
+     * @return array
      */
-    public function getSetting($setting) {
-
-    }
-
-    public function setSetting($setting, $value, $sort) {
-
+    public static function getProduct($productID) {
+        
     }
 }

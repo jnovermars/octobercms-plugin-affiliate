@@ -21,4 +21,17 @@ class Plugin extends PluginBase
             '\xleeuwx\Affiliate\components\AffiliateProducts' => 'AffiliateProducts'
         ];
     }
+    public function registerSettings()
+    {
+        return [
+            'settings' => [
+                'label'       => 'Affiliate Settings',
+                'description' => 'Configure Affiliate settings and API access.',
+                'icon'        => 'icon-cog',
+                'class'       => 'xleeuwx\Affiliate\models\Settings',
+                'order'       => 700,
+                'keywords'    => 'affiliate bol dealextreme'
+            ]
+        ];
+    }
 }

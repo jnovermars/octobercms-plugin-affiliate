@@ -1,0 +1,29 @@
+fields:
+  bol_api_url:
+    label: Bol.com API url
+    span: left
+    commentAbove: Get an API url from http://admin.mailchimp.com/account/api/
+  bol_api_key:
+    label: Bol.com API key
+    span: left
+    commentAbove: Get an API Key from http://admin.mailchimp.com/account/api/
+  bol_product_feed:
+    label: Bol.com API key
+    span: left
+    commentAbove: See https://developers.bol.com/wp-content/uploads/2014/08/Handleiding-productfeeds-Partnerprogramma-3.11.pdf
+  bol_product_feed_categories:
+      label: Bol.com API key
+      span: left
+      commentAbove: See https://developers.bol.com/wp-content/uploads/2014/08/Handleiding-productfeeds-Partnerprogramma-3.11.pdf
+  bol_site_id:
+    label: Bol.com Site ID
+    span: left
+    commentAbove: Get an the siteID from https://partnerprogramma.bol.com/partner/affiliate/account.do
+  bol_sub_id:
+    label: Bol.com subid
+    span: left
+    commentAbove: SubID is a own mark to mark the sales in the rapportage
+  dx_api_key:
+    label: DealExtreme API key
+    span: left
+    commentAbove: Get an API Key from http://admin.mailchimp.com/account/api/

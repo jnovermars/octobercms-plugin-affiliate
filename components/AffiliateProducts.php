@@ -3,7 +3,10 @@
 use Cache;
 use Request;
 use Cms\Classes\ComponentBase;
+use Config;
 use System\Classes\ApplicationException;
+use xleeuwx\Affiliate\models\Settings;
+
 
 class AffiliateProducts extends ComponentBase
 {
@@ -24,7 +27,7 @@ class AffiliateProducts extends ComponentBase
                 'type'              => 'dropdown',
                 'default'           => '',
                 'placeholder'       => 'Select Category',
-                'options'           => ['1'=>'1', '2'=>'2']
+                'options'           => self::getCategories()
             ],
             'brand' => [
                 'title'             => 'Brand',
@@ -32,16 +35,31 @@ class AffiliateProducts extends ComponentBase
                 'type'              => 'dropdown',
                 'default'           => '',
                 'placeholder'       => 'Select units',
-                'options'           => ['1'=>'2', '3'=>'4']
+                'options'           => self::getBrands()
             ],
             'sort' => [
                 'title'             => 'Sort',
-                'description'       => 'Units for the temperature and wind speed',
+                'description'       => 'The sort of products',
                 'type'              => 'dropdown',
-                'default'           => 'p_a',
+                'default'           => 'price_asc',
                 'placeholder'       => 'Select units',
-                'options'           => ['p_a'=>'Price ASC', 'p_d'=>'Price Desc']
+                'options'           => self::getSorts()
             ]
+        ];
+    }
+
+    public static function getCategories() {
+        return Config::get('xleeuwx.affiliate::categories', []);
+    }
+
+    public static function getBrands() {
+        return Config::get('xleeuwx.affiliate::brands', []);
+    }
+
+    public static function getSorts() {
+        return [
+            'price_asc'     => 'Price ASC',
+            'price_desc'    => 'Price DESC'
         ];
     }
 

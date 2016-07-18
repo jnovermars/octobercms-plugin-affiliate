@@ -1,9 +1,9 @@
 <?php
-namespace xleeuwx\Affiliate\Model;
+namespace xleeuwx\Affiliate\models;
 
 use October\Rain\Database\Model;
-use xleeuwx\Affiliate\Model\Bol\ProductBol;
-use xleeuwx\Affiliate\Model\DealExtreme\ProductDx;
+use xleeuwx\Affiliate\models\Bol\ProductBol;
+use xleeuwx\Affiliate\models\DealExtreme\ProductDx;
 
 
 class Product extends Model
