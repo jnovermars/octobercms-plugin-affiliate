@@ -1,0 +1,29 @@
+{
+  "name": "xleeuwx/Affiliate",
+  "type": "october-plugin",
+  "description": "Affiliate products OctoberCMS plugin",
+  "keywords": ["affiliate", "DealExtreme", "xleeuwx", "shop", "webshop", "plugin"],
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "xleeuwx",
+      "email": "info@xleeuwx.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "xleeuwx\\Affiliate\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
