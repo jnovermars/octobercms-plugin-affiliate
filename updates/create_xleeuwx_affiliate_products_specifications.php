@@ -1,4 +1,4 @@
-<?php namespace xleeuwx\Affiliate\Updates;
+<?php namespace xleeuwx\Affiliate\updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
