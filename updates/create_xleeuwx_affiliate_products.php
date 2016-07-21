@@ -16,7 +16,7 @@ class CreateXleeuwxAffiliateProducts extends Migration
             $table->string('productName')->nullable();
             $table->string('title')->nullable();
             $table->string('subTitle')->nullable();
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->double('price', 15, 2)->nullable();
             $table->timestamps();
         });

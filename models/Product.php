@@ -42,7 +42,7 @@ class Product extends Model
      * @param $sort
      */
     public function getProducts($brand, $category, $sort) {
-
+        return 'function';
     }
 
     // Get Product Specifications

@@ -62,5 +62,4 @@ class AffiliateProducts extends ComponentBase
             'price_desc'    => 'Price DESC'
         ];
     }
-
 }
